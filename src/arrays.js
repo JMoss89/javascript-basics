@@ -16,7 +16,7 @@ const csvStringToArray = string => {
 
 const addToArray = (element, array) => {
   // your code here
-  console.log(array.push(element));
+  array.push(element);
 };
 
 const addToArray2 = (element, array) => {
@@ -46,7 +46,7 @@ const reverseWordsInArray = strings => {
 
 const onlyEven = numbers => {
   // your code here
-  return numbers.filter(x => x % 2 === 0);
+  return numbers.filter(number => number % 2 === 0);
 };
 
 const removeNthElement2 = (index, array) => {
@@ -58,7 +58,7 @@ const removeNthElement2 = (index, array) => {
 
 const elementsStartingWithAVowel = strings => {
   // your code here
-  return strings.filter(string => (string.match(/^[aeiou]/gi)));
+  return strings.filter(string => string.match(/^[aeiou]/gi));
 }
 
 const removeSpaces = string => {

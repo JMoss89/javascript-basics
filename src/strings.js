@@ -6,7 +6,7 @@ const lowercase = (lowerWord) => lowerWord.toLowerCase();
 
 const countCharacters = (countWord) => countWord.length;
 
-const firstCharacter = (firstAlp) => firstAlp[0];
+const firstCharacter = (string) => string[0];
 
 const firstCharacters = (string, n) => string.slice(0, n);
 
